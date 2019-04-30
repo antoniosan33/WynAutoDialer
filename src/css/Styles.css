@@ -1,0 +1,103 @@
+
+
+:root{
+  --maincolor: #00CC00;
+  --headertextcolor: white;
+  --hovercolor: black;
+}
+
+/* HEADER */
+.pnav {
+  background-color: var(--maincolor);
+}
+
+.nav-link {
+  font-size: 1.2rem;
+}
+
+a.nav-link:hover{
+  color:var(--hovercolor);
+}
+
+a.nav-item {
+  color: var(--hovercolor);
+}
+
+.logo_wyn{
+  color:   Var(--maincolor);
+}
+
+.pheader-color-text {
+  color:   var(--headertextcolor);
+}
+
+.pbutton {
+  font-size: 1.3rem;
+}
+
+/* GENERAL */
+.pshadow {
+    box-shadow: 0px 5px 8px 0px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.ptext-size-small {
+    font-size: 0.8rem;
+    padding-top: 5px;
+}
+
+.pheight{
+  height: viewport;
+}
+.ptext-center{
+  text-align: center;
+}
+
+.maincolor-bg{
+  background: var(--maincolor);
+}
+
+li:hover {
+  color: var(--hovercolor);
+}
+
+/* HERO SECTION */
+#home-section {
+  background-image: url("../Images/home/b_office.jpg");
+  background-repeat: no-repeat;
+  min-height: 700px;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+#home-section .white-overlay{
+  position: absolute;
+  min-height: 700px;
+  width:100%;
+  background: rgba(255,255,255,0.7);
+    z-index: 0;
+}
+
+.hero-right {
+    /* background-image: url("../Images/home/4_call_center.svg"); */
+    background-repeat: no-repeat;
+    min-height: 600px;
+    background-size: cover;
+}
+
+/* PRICES */
+.ptop_prices{
+  height: 6rem;
+  background: var(--maincolor);
+}
+
+
+/* DASHBOARD */
+.dash-Leadlist:hover{
+    background: lightgray;
+}
+
+/* PARTICLES JS */
+#particles-js {
+  background: firebrick;
+  height: 500px;
+}

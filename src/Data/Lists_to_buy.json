@@ -1,0 +1,56 @@
+[
+  {
+  "id": 1,
+  "provider": "Wyn Leads",
+  "listName": "Probate Apr 2019",
+  "segment": "Realtors",
+  "type": "Probate",
+  "price": "59",
+  "qty": "356"
+  },
+  {
+  "id": 2,
+  "provider": "Wyn Leads",
+  "listName": "FSBO Apr 2019",
+  "segment": "Realtors",
+  "type": "FSBP",
+  "price": "69",
+  "qty": "80"
+  },
+  {
+  "id": 1,
+  "provider": "Wyn Leads",
+  "listName": "Expired Apr 2019",
+  "segment": "Realtors",
+  "type": "Expired",
+  "price": "49",
+  "qty": "250"
+  },
+  {
+  "id": 1,
+  "provider": "Tom Best Leads",
+  "listName": "Probate Apr 2019",
+  "segment": "Realtors",
+  "type": "Probate",
+  "price": "99",
+  "qty": "200"
+  },
+  {
+  "id": 1,
+  "provider": "Tom Best Leads",
+  "listName": "FSBO Apr 2019",
+  "segment": "Realtors",
+  "type": "FSBO",
+  "price": "99",
+  "qty": "100"
+  },
+  {
+  "id": 1,
+  "provider": "Wyn Leads",
+  "listName": "Probate Apr 2019",
+  "segment": "realtors",
+  "type": "Probate",
+  "price": "49",
+  "qty": "356"
+  }
+]

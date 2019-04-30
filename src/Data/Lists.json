@@ -1,0 +1,20 @@
+[
+  {
+  "id": 1,
+  "listName": "Wyn Leads",
+  "type": "FSBO",
+  "qty": "10"
+  },
+  {
+  "id": 2,
+  "listName": "Wyn Leads",
+  "type": "Probate",
+  "qty": "8"
+  },
+  {
+  "id": 3,
+  "listName": "Personal List - Referrals",
+  "type": "Personal",
+  "qty": "3"
+  }
+]

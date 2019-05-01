@@ -30,7 +30,6 @@ function App() {
           <Route path="/dialer" component={Header_dialer} />
 
             <div>
-              <Switch>
                 //Header
                 <Route path="/home" exact component={Home} />
                 <Route path="/home/faq" exact component={Faq} />
@@ -40,9 +39,8 @@ function App() {
                 // Header Dialer
                 <Route path="/dialer/leads_store" exact component={Leads_store} />
                 <Route path="/dialer/lead_lists" exact component={Lead_lists} />
-                <Route path="/dialer/dashboard" exact component={Call_dashboard} />
+                <Route path="/dialer/dashboard/:id" exact component={Call_dashboard} />
 
-              </Switch>
             </div>
           </div>
         </BrowserRouter>

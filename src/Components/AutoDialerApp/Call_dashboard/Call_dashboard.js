@@ -14,7 +14,8 @@ export default class Call_dashboard extends Component {
         city:"",
         zipcode:""
       }
-    }
+    },
+    list: []
   }
 
   updateLeadDetail = (list_id) => {
@@ -22,6 +23,13 @@ export default class Call_dashboard extends Component {
     return(console.log(list_id))
   }
 
+  componentDidMount = () => {
+    fetch(`${process.env.PUBLIC_URL}/data/List_${this.props.match.params.id}.json`)
+      .then( res => res.json() )
+      .then( data =>  this.setState({ list: data }) )
+      .catch( err => console.log(err) )
+
+  }
 
   render() {
       let parsedAddress = `${this.state.list_elem.address.street} ${this.state.list_elem.address.suite} ${this.state.list_elem.address.city} ${this.state.list_elem.address.zipcode}`
@@ -37,7 +45,7 @@ export default class Call_dashboard extends Component {
                   <h5 className="mt-2 mb-4 ptext-center">
                     Lead List
                   </h5>
-                    {LeadList.map((list, index) => (
+                    {this.state.list.map((list, index) => (
                         <Leads_short_detail key={list.id} list={list} index={index} updateLeadDetail={this.updateLeadDetail}/>
                       ))}
                 </div>

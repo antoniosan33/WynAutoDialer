@@ -20,7 +20,7 @@ const  Lead_info_display = (
               </label>
               <input type="text" value={name} className="form-control" />
             </div>
-            <div class="form-group col-6">
+            <div className="form-group col-6">
               <label className="ptext-size-small ml-3" >
                 Company:
               </label>

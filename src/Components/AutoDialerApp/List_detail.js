@@ -22,7 +22,7 @@ export default class Lead_lists extends Component {
               </div>
               <div className="col">
                 <h4 className="ptext-center">
-                  <Link to={`/dialer/dashboard`}>
+                  <Link to={`/dialer/dashboard/${this.props.list.id}`}>
                     <i
                       className="fas fa-headset"
                       style={{
